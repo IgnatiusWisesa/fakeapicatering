@@ -1,0 +1,1738 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "roleid": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "roleid": 3,
+      "username": "Hadi",
+      "merchantid": 3,
+      "email": "hadi@gmail.com",
+      "password": "qwe"
+    },
+    {
+      "first": "Jamal",
+      "roleid": 2,
+      "last": "Baharudin",
+      "username": "jamal",
+      "phone": "+089487463",
+      "email": "jamal@gmail.com",
+      "fulladdress": "lala",
+      "city": "jakarta",
+      "photo": "logo.jpg",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "username": "ada",
+      "roleid": 2,
+      "email": "ada@gmail.com",
+      "pass": "12",
+      "id": 4,
+      "status": "dihapusadmin"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "role": "merchant"
+    }
+  ],
+  "merchants": [
+    {
+      "id": 1,
+      "name": "Resni's Kitchen",
+      "rating": 3.7,
+      "Manager": "Feby",
+      "PhotoManager": "https://cdn2.tstatic.net/wartakota/foto/bank/images/feby-putri-ij.jpg",
+      "Kitchen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIwtfX6xtkrhus-QyDCtmng9NYdknKhCrt7TF7RkJMgq4s71lb&s",
+      "Staff": "https://i.pinimg.com/originals/44/05/5b/44055b7817d31975d5b830eea0d5c39a.jpg",
+      "Specialcook": "Ayam Kremes",
+      "Photocook": "https://ayomasak.id/wp-content/uploads/2019/01/L1110638-630x380.jpg",
+      "Playlist": [
+        "Upsized Meals",
+        "All New Menus",
+        "Value Meals"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bakerzin",
+      "rating": 4.3,
+      "Manager": "Djadja",
+      "PhotoManager": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDqItl6R6ZTUChS1FtuKwKbC5J3EzzkzuhA6smd7w_TAYS9_j&s",
+      "Kitchen": "https://i0.wp.com/www.diegocoquillat.com/wp-content/uploads/2016/04/Dise%C3%B1o-de-cocina-para-restaurante.jpg",
+      "Staff": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZi1J7cZv6DgZzs4Xhgn-WWv_ZRc1BvEzPqMLCQeotPCUboTn_&s",
+      "Specialcook": "Stuffed Pasta",
+      "Photocook": "https://i0.wp.com/foodinloveid.com/wp-content/uploads/2019/08/featured-bakerzin-ultimate-stuffed-pasta.jpg?fit=1200%2C664&ssl=1",
+      "Playlist": [
+        "Mediteranian Diet",
+        "Red Rice for Lyfe",
+        "Healthy Choice"
+      ],
+      "status": "dihapusadmin"
+    },
+    {
+      "id": 3,
+      "name": "Hadi's Kitchen",
+      "rating": 3.2,
+      "Manager": "Hadi",
+      "PhotoManager": "https://img.okezone.com/content/2019/07/26/33/2083756/perjuangan-dennis-hadi-lunasi-utang-rp2-miliar-dengan-jualan-nasi-ApomuVXjYv.JPG",
+      "Kitchen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6UX-i5U4Z6o9jrzLc8RqscGSyJ9mjs8OVQ1yjYcMIsAs0dwXLA&s",
+      "Staff": "https://media-cdn.tripadvisor.com/media/photo-s/02/aa/da/e0/filename-chefs-in-the.jpg",
+      "Specialcook": "Saladbar",
+      "Photocook": "https://assets-pergikuliner.com/SFlmo3dpnLai4Imlv5VuJZ7XCFE=/312x0/smart/https://assets-pergikuliner.com/uploads/image/picture/1586429/picture-1568340152.JPG",
+      "Playlist": [
+        "Eat Well, Feed Well",
+        "Premium Meals",
+        "International Cuisine"
+      ],
+      "status": "dihapusadmin"
+    },
+    {
+      "name": "sca",
+      "Manager": "asc",
+      "PhotoManager": "sac",
+      "Kitchen": "sac",
+      "Staff": "asc",
+      "Specialcook": "asc",
+      "Photocook": "asc",
+      "id": 4
+    }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "playlistname": "Upsized Meals",
+      "fromMerchant": 1,
+      "description": "Value Meals with more portions added",
+      "longdesc": "When work-life gets tougher, you need extra energy to help you get things done. Enjoy more portions added to your favorite side dishes now.",
+      "priceFrom": "Rp. 158.000",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/food-vibes-only-white-art-by-linda-woods-linda-woods.jpg"
+    },
+    {
+      "id": 2,
+      "playlistname": "Mediteranian Diet",
+      "fromMerchant": 2,
+      "description": "Mediterranean-style healty diet, yes please!",
+      "longdesc": "Try these perfectly portioned Greek-inspired healthy bowls that pack great for your Mediteranean diet. Time to bring out your inner goddess!",
+      "priceFrom": "Rp. 325.000",
+      "image": "https://thumbs.dreamstime.com/b/ad-db-af-fff-d-144873974.jpg"
+    },
+    {
+      "id": 3,
+      "playlistname": "Eat Well, Feed Well",
+      "fromMerchant": 3,
+      "description": "Here to make your lunch is under 600cals",
+      "longdesc": "Last minute weightloss 2019 checklist to tick? We'll make sure your lunch is unnder 600 cals when you subscribe to this package. A click away to calorie deficit while staying full!",
+      "priceFrom": "Rp. 150.000",
+      "image": "https://media.istockphoto.com/vectors/good-food-vector-illustration-vector-id1153707828"
+    },
+    {
+      "id": 4,
+      "playlistname": "All New Menus",
+      "fromMerchant": 1,
+      "description": "Colour your days with new menus from this package",
+      "longdesc": "For all of you who gets easily bored, we get you! Colour your days with new menus daily by subscribing to this package and you'll be sure to love your food everyday.",
+      "priceFrom": "Rp. 160.000",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/food-vibes-only-white-art-by-linda-woods-linda-woods.jpg"
+    },
+    {
+      "id": 5,
+      "playlistname": "Red Rice for Lyfe",
+      "fromMerchant": 2,
+      "description": "Red rice for more fibres for your diet! Check out!",
+      "longdesc": "Special for red rice lovers, We have the answer to your prayer. Enjoy red rice for your lunch daily, making sure you get more fibres for your diet!",
+      "priceFrom": "Rp. 170.000",
+      "image": "https://previews.123rf.com/images/hllwdrf/hllwdrf1901/hllwdrf190100068/115853346-keto-diet-hand-drawn-vector-lettering-low-carb-high-fat-keto-diet-quote-healthy-nutrition-low-carb-d.jpg"
+    },
+    {
+      "id": 6,
+      "playlistname": "Premium Meals",
+      "fromMerchant": 3,
+      "description": "Chef-made tasty bento for your lunch!",
+      "longdesc": "Lots of tasty food come from the best spices. These classic dishes will make you feel what you have never felt before.",
+      "priceFrom": "Rp. 170.000",
+      "image": "https://image.spreadshirtmedia.com/image-server/v1/mp/compositions/T813A1MPA3132PT17X19Y27D1024616390FS2529/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true,version=1566302864/cooking-with-wine-womens-premium-t-shirt.jpg"
+    },
+    {
+      "id": 7,
+      "playlistname": "Value Meals",
+      "fromMerchant": 1,
+      "description": "Good deals of rice bowl packages. Just click please!",
+      "longdesc": "Nutritious meals don't have to burn a hole in your pocket. These tasty meals are cooked fresh daily to pack you with energy for the rest of the day",
+      "priceFrom": "Rp. 135.000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4WWo8p7gPvwWVIMctjHo_Una8lLK3ZGz7qfhekLUlONOjWW0U&s"
+    },
+    {
+      "id": 8,
+      "playlistname": "Healthy Choice",
+      "fromMerchant": 2,
+      "description": "Salad bowls to achieve body goals. Yes we can!",
+      "longdesc": "If you're looking for good-for-you dishes, you are in the right spot. These mindful meals will make it easy for you to live the healthy life that you've always wanted.",
+      "priceFrom": "Rp. 185.000",
+      "image": "https://i.pinimg.com/originals/91/66/06/916606de66bca6fda665e344ce004d6b.png"
+    },
+    {
+      "id": 9,
+      "playlistname": "International Cuisine",
+      "fromMerchant": 3,
+      "description": "Your favorite western & asian dishes in a click away.",
+      "longdesc": "Take a trip around the world through your taste buds, no flights necessary. Enjoy a melting pot of top-notch cuisines, one continent at a time.",
+      "priceFrom": "Rp. 175.000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0zy41jaQXLsvjuVPrNWDl6gQIpBj02A1KFVfV5zZ55qoJFlgZfg&s"
+    },
+    {
+      "id": 10,
+      "playlistname": "Upsized Mealss",
+      "fromMerchant": 1,
+      "description": "Value Meals with more portions added",
+      "longdesc": "When work-life gets tougher, you need extra energy to help you get things done. Enjoy more portions added to your favorite side dishes now.",
+      "priceFrom": "Rp. 158.000",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/food-vibes-only-white-art-by-linda-woods-linda-woods.jpg"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "playlist": "Upsized Meals",
+      "merchant": "Resnis's Kitchen",
+      "harga": 34000,
+      "hari": [
+        "Ginger Soy Fish Rice",
+        "Honey Pepper Beef Rice",
+        "The Great Japanese Miso Beef",
+        "Stir Fry Chicken With Yummy Mixed Mushroom",
+        "Chicken and Eggplant in Pepper Sauce",
+        "Cereal Fried Dory",
+        "Thai Beef Green Curry",
+        "Spaghetti Marinara with Japanese-style",
+        "Rammen Miso Veggie Buddy",
+        "Chicken Kare Raisu"
+      ],
+      "desc": [
+        "Served with oriental stir-fried vegetables",
+        "Served with stir-fried honey black pepper beef & green beans, stir-fried cabbage, and steamed rice",
+        "Japanese miso beef served with miso and honey sauce, shoyu daikon, large leeks, black sesame seeds and steamed rice",
+        "Served with stir fry bokchoy, black sesame seeds and ginger rice",
+        "Pepper chicken and eggplant served with crispy garlic string bean and steamed rice",
+        "Wet Breaded dory served with Singaporean cereal topping, stir fry cabbage with mushroom, sesame and steamed rice",
+        "Served with beef in green curry sauce, stir-fried gai lan & mushroom in oyster sauce, and steamed rice",
+        "Roasted chicken served with Japanese katsuobushi flakes, marinara sauce, crispy potato bbq, spaghetti, and parsley",
+        "Served with mie singkawang, cooked spinach, tofu steak, boiled egg, dried seaweed, and togarashi chicimi",
+        "Served with chicken & vegetables in japanese curry sauce, coleslaw, and steamed rice"
+      ],
+      "gam": [
+        "https://img.taste.com.au/LVAtK3cH/w720-h480-cfill-q80/taste/2016/11/soy-fish-with-spring-onion-and-ginger-28774-1.jpeg",
+        "https://i.pinimg.com/originals/79/09/15/790915d9b22f6202bbec93955cf9b8d8.jpg",
+        "https://static01.nyt.com/images/2016/09/27/dining/27COOKING-JAPANESE-BEEF-STEW1/27COOKING-JAPANESE-BEEF-STEW1-articleLarge.jpg",
+        "https://diethood.com/wp-content/uploads/2019/09/Zucchini-Mushroom-Chicken-Panda-Express-Copycat-2.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7QMJVvQ7s5nLS8uhV3uxhwFkvV0tAsljFVAceRyrEQ03d7IHU&s",
+        "http://1.bp.blogspot.com/-wYQYAPdxd9g/UbNaT58yWTI/AAAAAAAAF_g/UYXUHpK22aw/s1600/IMG_4720.JPG",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNg_IWZLm0BqvOQZ3yLNhwHeqKcVe6mqCbW4PuR-qzwBddOdwf&s",
+        "https://www.recipetineats.com/wp-content/uploads/2016/06/Seafood-Marinara-Spaghetti_2-500x500.jpg",
+        "https://i.pinimg.com/736x/9c/da/30/9cda303761f818041aba08cbd3bc4e49.jpg",
+        "https://aboutjapanesefood.com/abjp-content/uploads/2019/01/kare-raisu-korean-made-1160x665.jpg"
+      ],
+      "ing": [
+        [
+          "dory",
+          "cabbage",
+          "mushroom",
+          "ginger",
+          "seasoning herbs"
+        ],
+        [
+          "beef",
+          "green bean",
+          "cabbage",
+          "honey",
+          "black pepper",
+          "seasoning herbs",
+          "steamed rice"
+        ],
+        [
+          "beef",
+          "tofu",
+          "shoyu",
+          "wakame",
+          "miso paste",
+          "garlic cloves",
+          "cucumber",
+          "celery",
+          "white radish",
+          "japanese soy sauce",
+          "honey",
+          "sesame oil"
+        ],
+        [
+          "chicken",
+          "garlic",
+          "ginger",
+          "red cayenne",
+          "pepper",
+          "chilli sauce",
+          "leeks cilantro",
+          "mixed mushrooms",
+          "choped garlic",
+          "bokchoy",
+          "olive oil",
+          "sesame oil",
+          "powdered chicken stock",
+          "sesame"
+        ],
+        [
+          "chicken",
+          "eggplant",
+          "pepper",
+          "garlic",
+          "string beans",
+          "wonton wrappers",
+          "black sesame"
+        ],
+        [
+          "dory fish",
+          "prawn",
+          "eggs",
+          "cornstarch",
+          "red chilli",
+          "curry leaves",
+          "chicken powder",
+          "cabbage",
+          "mushroom",
+          "chilli pepper",
+          "chive",
+          "soy sauce",
+          "black vinegar"
+        ],
+        [
+          "beef",
+          "gai lan",
+          "mushroom",
+          "oyster sauce",
+          "thai green curry seasoning herbs",
+          "steamed rice"
+        ],
+        [
+          "chicken breast",
+          "spaghetti",
+          "tomato paste",
+          "onions",
+          "garlic",
+          "japanese katsuobushi",
+          "potato",
+          "bbq sauce",
+          "parsley"
+        ],
+        [
+          "mie singkawang",
+          "spinach",
+          "tofu",
+          "egg",
+          "seaweed",
+          "corn",
+          "mushroom",
+          "togarashi shicimi"
+        ],
+        [
+          "chicken",
+          "fresh seasonal vegetables",
+          "onion",
+          "japanese curry seasoning herbs",
+          "thousand island",
+          "steamed rice"
+        ]
+      ],
+      "nut": [
+        [
+          521,
+          27,
+          63,
+          17
+        ],
+        [
+          531,
+          23,
+          69,
+          19
+        ],
+        [
+          565,
+          26,
+          62,
+          22
+        ],
+        [
+          686,
+          30,
+          47,
+          44
+        ],
+        [
+          648,
+          24,
+          56,
+          36
+        ],
+        [
+          657,
+          46,
+          72,
+          19
+        ],
+        [
+          456,
+          22,
+          43,
+          19
+        ],
+        [
+          757,
+          44,
+          59,
+          36
+        ],
+        [
+          516,
+          16,
+          61,
+          22
+        ],
+        [
+          593,
+          27,
+          55,
+          32
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "playlist": "Mediterranean Diet",
+      "merchant": "Bakerzin",
+      "harga": 45000,
+      "hari": [
+        "Mediterranean Vegie Sandwich",
+        "Traditional Greek Salad",
+        "Chicken Lentil Cheesy Salad"
+      ],
+      "desc": [
+        "Whole wheat bread with cherry tomatoes, roasted eggplant, zucchini, bell peppers, and red onion. Topped with yogurt spread",
+        "Served with chickpea, olive. zucchini, cherry tomato, bell pepper, feta cheese, and lettuce mesciun drizzled in olive oil",
+        "Served with Sauteed Chicken, Lentil Beans, Fresh Seasonal Vegetables, Ricotta Cheese, and Vinaigrette Dressing"
+      ],
+      "gam": [
+        "https://i.pinimg.com/originals/11/d0/b8/11d0b8e05a6bff906d2298817418f7a5.jpg",
+        "https://natashaskitchen.com/wp-content/uploads/2019/02/Greek-Salad-500x375.jpg",
+        "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/beetroot-lentil-goat-s-cheese-salad-c39d675b.jpg"
+      ],
+      "ing": [
+        [
+          "whole wheat bread",
+          "cherry tomatoes",
+          "eggplant",
+          "zucchini",
+          "bell peppers",
+          "red onion",
+          "yogurt"
+        ],
+        [
+          "chickpea",
+          "olive",
+          "zucchini",
+          "cherry tomato",
+          "bell pepper",
+          "assorted lettuce",
+          "olive oil",
+          "feta cheese"
+        ],
+        [
+          "chicken",
+          "sauteed chicken",
+          "lentil beans",
+          "fresh seasonal vegetables",
+          "ricotta cheese",
+          "vinaigrette dressing"
+        ]
+      ],
+      "nut": [
+        [
+          352.7,
+          18.4,
+          39.6,
+          9.9
+        ],
+        [
+          597,
+          7,
+          19,
+          56
+        ],
+        [
+          522.2,
+          42.1,
+          9.3,
+          25.7
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "playlist": "Eat Well, Feed Well",
+      "merchant": "Hadi's Kitchen",
+      "harga": 43000,
+      "hari": [
+        "Ginger Soy Fish Rice",
+        "Honey Pepper Beef Rice",
+        "Chicken Kare Raisu",
+        "Steamed Dory with Ginger Soy Sauce",
+        "Chicken Quinoa Salad",
+        "Thai Beef Green Curry",
+        "Tsukune Chicken",
+        "Miso Honey Glazed Dory Set",
+        "Stir Fry Chicken With Yummy Mixed Mushroom",
+        "Tsukune Chicken"
+      ],
+      "desc": [
+        "Served with oriental stir-fried vegetables",
+        "Served with stir-fried honey black pepper beef & green beans, stir-fried cabbage, and steamed rice",
+        "Served with chicken & vegetables in japanese curry sauce, coleslaw, and steamed rice",
+        "Steamed dory served with ginger superior soy sauce, stir fry cabbage with szechuan, black sesame seeds and steamed rice",
+        "Served with quinoa, fresh seasonal vegetable, sesame ginger vinaigrette dressing",
+        "Served with beef in green curry sauce, stir-fried gai lan & mushroom in oyster sauce, and steamed rice",
+        "Chicken tsukune with vegetable teppanyaki, spicy teriyaki sauce and steamed rice",
+        "Served with miso and honey sauce, fried gyoza chicken, spinach salad and steamed rice",
+        "Served with stir fry bokchoy, black sesame seeds and ginger rice",
+        "Chicken tsukune with vegetable teppanyaki, spicy teriyaki sauce and steamed rice"
+      ],
+      "gam": [
+        "https://img.taste.com.au/t3YbBhnT/w720-h480-cfill-q80/taste/2018/09/seared-snapper-with-snowpeas-basil-and-lemon-141658-2.jpg",
+        "https://i.ytimg.com/vi/neGmAzkJG5k/maxresdefault.jpg",
+        "https://aboutjapanesefood.com/abjp-content/uploads/2019/01/kare-raisu-korean-made-1160x665.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ZT7gr1Xm749iw2-AwRVWNDGXzkOoS0322DeD8TcFjhWx0S1S&s",
+        "https://foodnessgracious.com/wp-content/uploads/2018/12/chicken-quinoa-03.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNg_IWZLm0BqvOQZ3yLNhwHeqKcVe6mqCbW4PuR-qzwBddOdwf&s",
+        "https://www.seriouseats.com/recipes/images/2014/10/20141017-tsukune-joshua-bousel-1500x1125.jpg",
+        "https://i.pinimg.com/originals/a0/e4/80/a0e4803486ec955716a2ea61067f8b9d.jpg",
+        "https://i.ytimg.com/vi/neGmAzkJG5k/maxresdefault.jpg"
+      ],
+      "ing": [
+        [
+          "dory",
+          "cabbage",
+          "mushroom",
+          "ginger",
+          "seasoning herbs"
+        ],
+        [
+          "beef",
+          "green bean",
+          "honey",
+          "black pepper",
+          "seasoning herbs",
+          "steamed rice"
+        ],
+        [
+          "chicken",
+          "fresh seasonal vegetables",
+          "onion",
+          "japanese curry seasoning herbs",
+          "thousand island",
+          "steamed rice"
+        ],
+        [
+          "dory fillet",
+          "garlic",
+          "lemon",
+          "tomato",
+          "broth",
+          "black pepper powder",
+          "red chilli powder",
+          "ginger root",
+          "soy sauce",
+          "honey",
+          "balsamic vinegar",
+          "garlic powder",
+          "green cabbage",
+          "szechuan peppercorns"
+        ],
+        [
+          "chicken",
+          "quinoa",
+          "fresh seasonal vegetables",
+          "sesame",
+          "ginger",
+          "vinaigrette dressing"
+        ],
+        [
+          "beef",
+          "gai lan",
+          "mushroom",
+          "oyster sauce",
+          "thai green curry seasoning herbs",
+          "steamed rice"
+        ],
+        [
+          "chicken",
+          "sesame oil",
+          "shiso leaves",
+          "shichimi togarashi",
+          "white cabbage",
+          "carrots",
+          "soy sauce",
+          "sesame seeds",
+          "spring onions"
+        ],
+        [
+          "fish fillets",
+          "honey",
+          "light miso",
+          "toasted sesame oil",
+          "ground chicken",
+          "garlic cloves",
+          "black pepper",
+          "paprika",
+          "soy sauce",
+          "spinach",
+          "crumbled feta",
+          "red onion"
+        ],
+        [
+          "chicken",
+          "garlic",
+          "ginger",
+          "red cayenne",
+          "pepper",
+          "chilli sauce",
+          "leeks cilantro",
+          "mixed mushrooms",
+          "choped garlic",
+          "bokchoy",
+          "olive oil",
+          "sesame oil",
+          "powdered chicken stock",
+          "sesame"
+        ],
+        [
+          "chicken",
+          "sesame oil",
+          "shiso leaves",
+          "shichimi togarashi",
+          "white cabbage",
+          "carrots",
+          "soy sauce",
+          "sesame seeds",
+          "spring onions",
+          "sesame"
+        ]
+      ],
+      "nut": [
+        [
+          428,
+          32,
+          54,
+          10
+        ],
+        [
+          427,
+          15,
+          60,
+          14
+        ],
+        [
+          593,
+          27,
+          55,
+          32
+        ],
+        [
+          506,
+          32,
+          51,
+          23
+        ],
+        [
+          547,
+          28,
+          21,
+          42
+        ],
+        [
+          456,
+          22,
+          43,
+          19
+        ],
+        [
+          761,
+          22,
+          59,
+          48
+        ],
+        [
+          677,
+          35,
+          63,
+          31
+        ],
+        [
+          686,
+          30,
+          47,
+          44
+        ],
+        [
+          761,
+          22,
+          59,
+          48
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "playlist": "All New Menus",
+      "merchant": "Resni's Kitchen",
+      "harga": 38000,
+      "hari": [
+        "Nguyen's Vietnamese Meatballs Set",
+        "Tsukune Chicken",
+        "The Great Japanese Miso Beef with Red Rice Set"
+      ],
+      "desc": [
+        "Served with fried lemongrass tofu, garlic kalian, nuoc cham sauce and steamed rice",
+        "Chicken tsukune with vegetable teppanyaki, spicy teriyaki sauce and steamed rice",
+        "Japanese miso beef served with sweet potato tempura, shoyu daikon, black sesame seeds, large leeks and red rice"
+      ],
+      "gam": [
+        "https://157212-453144-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/04/bun-cha-27.jpg",
+        "https://www.seriouseats.com/recipes/images/2014/10/20141017-tsukune-joshua-bousel-1500x1125.jpg",
+        "https://shop.r10s.jp/yonekyu/cabinet/syouhingazou/shifuku17s_miso2.jpg"
+      ],
+      "ing": [
+        [
+          "eggs",
+          "fish sauce",
+          "ginger",
+          "red pepper flakes",
+          "cilantro leaves",
+          "soy sauce",
+          "broccoli",
+          "toasted sesame oil",
+          "tofu",
+          "lemongrass",
+          "soy sauce"
+        ],
+        [
+          "chicken",
+          "sesame oil",
+          "shiso leaves",
+          "shichimi togarashi",
+          "white cabbage",
+          "carrots",
+          "soy sauce",
+          "sesame seeds",
+          "spring onions"
+        ],
+        [
+          "beef",
+          "tofu",
+          "shoyu",
+          "wakame",
+          "sweet potato",
+          "eggs",
+          "japanese soy sauce",
+          "white radish",
+          "sesame",
+          "miso paste",
+          "honey",
+          "sesame oil",
+          "rice wine vinegar"
+        ]
+      ],
+      "nut": [
+        [
+          903,
+          21,
+          60,
+          69
+        ],
+        [
+          761,
+          22,
+          59,
+          48
+        ],
+        [
+          757,
+          22,
+          88,
+          33
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "playlist": "Red Rice for Lyfe",
+      "merchant": "Bakerzin",
+      "harga": 34500,
+      "hari": [
+        "Ginger Soy Fish Red Rice Set",
+        "The Great Japanese Miso Beef with Red Rice Set",
+        "Stir Fry Chicken with Yummy Mixed Mushroom with Red Rice Set"
+      ],
+      "desc": [
+        "Served with oriental stir-fried vegetables and fried wonton",
+        "Japanese miso beef served with sweet potato tempura, shoyu daikon, black sesame seeds, large leeks and red rice",
+        "Served with fried wonton vegetables, stir fry bokchoy, black sesame seeds and red rice"
+      ],
+      "gam": [
+        "https://previews.123rf.com/images/pedphoto36pm/pedphoto36pm1611/pedphoto36pm161100243/66006630-rice-noodle-with-fish-and-shrimp-ball-dress-red-soy-sauce.jpg",
+        "https://www.thetravelmentor.com/wp-content/uploads/2017/11/beef_cutlet_barley_rice_set_gyukatsu_motomura_shinjuku_minamiguchi_tokyo_japan-1024x640.jpg",
+        "https://i2.wp.com/lifemadesimplebakes.com/wp-content/uploads/2016/09/30-Minute-Mongolian-Beef-Stir-Fry-1.jpg"
+      ],
+      "ing": [
+        [
+          "dory",
+          "cabbage",
+          "mushroom",
+          "ginger",
+          "wonton wrappers",
+          "seasoning herbs"
+        ],
+        [
+          "beef",
+          "tofu",
+          "shoyu",
+          "wakame",
+          "sweet potato",
+          "eggs",
+          "japanese soy sauce",
+          "white radish",
+          "sesame",
+          "miso paste",
+          "honey",
+          "sesame oil",
+          "rice wine vinegar"
+        ],
+        [
+          "chicken",
+          "garlic",
+          "ginger",
+          "chilli sauce",
+          "leeks",
+          "sesame"
+        ]
+      ],
+      "nut": [
+        [
+          663,
+          32,
+          62,
+          31
+        ],
+        [
+          757,
+          22,
+          88,
+          33
+        ],
+        [
+          678,
+          25,
+          51,
+          43
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "playlist": "Premium Meals",
+      "merchant": "Hadi's Kitchen",
+      "harga": 60000,
+      "hari": [
+        "Nguyen's Vietnamese Meatballs Set",
+        "Miso Honey Glazed Dory Set",
+        "Fusilli in Pumpkin Cream"
+      ],
+      "desc": [
+        "Served with fried lemongrass tofu, garlic kalian, nuoc cham sauce and steamed rice",
+        "Served with miso and honey sauce, fried gyoza chicken, spinach salad and steamed rice",
+        "Served with chicken sausage, grilled vegetables, garlic puffs, and parmesan"
+      ],
+      "gam": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFF-3wkpaOoG6aPdn63HrLv8VPle7G8vOWSGKCHukaUHKpIu-&s",
+        "https://i.pinimg.com/originals/a0/e4/80/a0e4803486ec955716a2ea61067f8b9d.jpg",
+        "https://previews.123rf.com/images/nadianb/nadianb1810/nadianb181000777/111011398-pumpkin-pasta-with-thyme-cream-sauce-and-parmesan-.jpg"
+      ],
+      "ing": [
+        [
+          "eggs",
+          "fish sauce",
+          "ginger",
+          "red pepper flakes",
+          "cilantro leaves",
+          "soy sauce",
+          "broccoli",
+          "toasted sesame oil",
+          "tofu",
+          "lemongrass",
+          "soy sauce",
+          "cilantro",
+          "sesame"
+        ],
+        [
+          "fish fillets",
+          "honey",
+          "light miso",
+          "toasted sesame oil",
+          "ground chicken",
+          "garlic cloves",
+          "black pepper",
+          "paprika",
+          "soy sauce",
+          "spinach",
+          "crumbled feta",
+          "red onion"
+        ],
+        [
+          "pumpkin",
+          "fusilli",
+          "chicken sausage",
+          "fresh seasonal vegetables",
+          "garlic puffs",
+          "parmesan",
+          "seasoning herbs"
+        ]
+      ],
+      "nut": [
+        [
+          903,
+          21,
+          60,
+          69
+        ],
+        [
+          677,
+          35,
+          63,
+          31
+        ],
+        [
+          545,
+          26,
+          59,
+          19
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "playlist": "Value Meals",
+      "merchant": "Resni's Kitchen",
+      "harga": 27000,
+      "hari": [
+        "Yakiniku-Glazed Beef",
+        "Tsukune Chicken",
+        "Stir Fry Chicken with Yummy Mixed Mushroom"
+      ],
+      "desc": [
+        "Served with garlic-sauteed edamame, and steamed rice",
+        "Chicken tsukune with vegetable teppanyaki, spicy teriyaki sauce and steamed rice",
+        "Served with stir fry bokchoy, black sesame seeds and ginger rice"
+      ],
+      "gam": [
+        "https://media-cdn.tripadvisor.com/media/photo-s/06/e2/2e/a3/cho-cho-san.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/06/e2/2e/a3/cho-cho-san.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/06/e2/2e/a3/cho-cho-san.jpg"
+      ],
+      "ing": [
+        [
+          "beef",
+          "onion",
+          "premium yakiniku sauce",
+          "edamame",
+          "sesame",
+          "rice"
+        ],
+        [
+          "chicken",
+          "sesame oil",
+          "shiso leaves",
+          "shichimi togarashi",
+          "white cabbage",
+          "carrots",
+          "soy sauce",
+          "sesame seeds",
+          "spring onions",
+          "sesame"
+        ],
+        [
+          "chicken",
+          "garlic",
+          "ginger",
+          "red cayenne",
+          "pepper",
+          "chilli sauce",
+          "leeks",
+          "cilantro",
+          "mixed mushrooms",
+          "garlic",
+          "bokchoy",
+          "olive oil",
+          "sesame oil",
+          "powdered chicken stock",
+          "sesame"
+        ]
+      ],
+      "nut": [
+        [
+          385,
+          18,
+          49,
+          12
+        ],
+        [
+          761,
+          22,
+          59,
+          48
+        ],
+        [
+          520,
+          21,
+          45,
+          31
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "playlist": "Healthy Choice",
+      "merchant": "Bakerzin",
+      "harga": 75000,
+      "hari": [
+        "Chicken & Apple Vinaigrette Salad",
+        "Veggie Hamburg Broccoli Salad",
+        "Chicken Caesar Pasta Salad"
+      ],
+      "desc": [
+        "Served with grilled chicken, green & red apple slices, and baked rice sprinkles",
+        "Served with vegetable patty, corn, broccoli & fresh seasonal veggies, and dijon mustard dressing",
+        "Served with skinless chicken breast, fresh seasonal veggies, penne, parmesan, and caesar dressing"
+      ],
+      "gam": [
+        "https://i.pinimg.com/originals/d0/d4/c7/d0d4c7792baf026376d5fa37b3123b18.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUSlOKVxFwnxela93RMI05KEk30V1dLUtFfLlAYvp2kbUgEw6U&s",
+        "https://everydaydishes.com/wp-content/uploads/2015/03/chicken-caesar-pasta-salad-everydaydishes_com-B1.jpg"
+      ],
+      "ing": [
+        [
+          "chicken",
+          "green apple",
+          "red apple",
+          "baked rice",
+          "seasoning herbs",
+          "vinaigrette dressing"
+        ],
+        [
+          "corn",
+          "broccoli",
+          "fresh seasonal vegetables",
+          "apple cider vinegar",
+          "dijon mustard",
+          "olive oil"
+        ],
+        [
+          "penne pasta",
+          "chicken breast",
+          "fresh seasonal vegetables",
+          "mayonaise",
+          "sour cream",
+          "worchestershire sauce",
+          "buttermilk",
+          "parmesan cheese"
+        ]
+      ],
+      "nut": [
+        [
+          604,
+          26,
+          46,
+          25
+        ],
+        [
+          545,
+          11,
+          47,
+          38
+        ],
+        [
+          781,
+          33,
+          37,
+          56
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "playlist": "International Cuisine",
+      "merchant": "Hadi's Kitchen",
+      "harga": 83000,
+      "hari": [
+        "Salted Egg Chicken Rice Set",
+        "Kimchi Bokkeumbap Fried Rice Set",
+        "Barbecue Ranch Chicken Pasta"
+      ],
+      "desc": [
+        "Served with sunny side up egg and sauteed bok choy",
+        "Served with beef steak fingers, korean jeon vegetable pancake, and sunny side up egg",
+        "Served with chicken in barbecue ranch sauce, fusilli pasta, onion, bell pepper, and cheddar cheese"
+      ],
+      "gam": [
+        "https://burpple-1.imgix.net/foods/2e6e7a575e15d38db6ac1782529_original.?w=645&dpr=1&fit=crop&q=80&auto=format",
+        "https://www.maangchi.com/wp-content/uploads/2019/07/bokkeumbap-insta.jpg",
+        "https://spicysouthernkitchen.com/wp-content/uploads/ranch-pasta-salad-42.jpg"
+      ],
+      "ing": [
+        [
+          "chicken",
+          "eggs",
+          "salted egg",
+          "seasoning herbs",
+          "bokchoy",
+          "steamed rice"
+        ],
+        [
+          "kimchi",
+          "beef",
+          "assorted vegetable of the day",
+          "flour",
+          "eggs",
+          "seasoning herbs",
+          "steamed rice"
+        ],
+        [
+          "chicken",
+          "barbecue sauce",
+          "ranch sauce",
+          "fusilli pasta",
+          "onion",
+          "bell pepper",
+          "cheddar cheese"
+        ]
+      ],
+      "nut": [
+        [
+          985,
+          50,
+          80,
+          48
+        ],
+        [
+          731,
+          30,
+          60,
+          38
+        ],
+        [
+          784,
+          42,
+          70,
+          35
+        ]
+      ]
+    }
+  ],
+  "custommenu": [
+    {
+      "id": 1,
+      "merchant": "Resni's Kitchen",
+      "idmerchant": 1,
+      "main": [
+        "Rice",
+        "Oriental Fried Rice",
+        "Taliwang Grilled Chicken",
+        "Rouladen",
+        "Teriyaki Beef",
+        "Fish Balls",
+        "Snapper in Lemon Sauce"
+      ],
+      "descmain": [
+        "White Rice",
+        "Fried Rice with vegetables and seafood",
+        "Ayam Taliwang physically appears similar to regular grilled or fried chicken, with a covering of sambal. Its taste is sweet and spicy, with traces of shrimp paste. It can be served with a side of water spinach (pelecing) and eggplant (beberuk) covered with chili sauce",
+        "The beef rouladen as we know them today have become popular over the last century. The cut is usually topside beef or silverside since this is the cheaper cut. The more expensive version would be the round steak, also known as rump steak. The meat is cut into large, thin slices.",
+        "The teriyaki sauce consists of soy sauce, mirin, sesame oil, fish sauce, ginger, garlic and brown sugar. The sauce gets nice and thick with a simple cornstarch slurry.",
+        "Made from fish meat that is most often sold by street vendors as well as restaurants. It is a fried food containing fish that is formed into a ball and deep fried with or without a light batter coating on the outside.",
+        "Red snapper in lemon garlic sauce served with asparagus"
+      ],
+      "gambarmain": [
+        "https://awsimages.detik.net.id/visual/2019/07/09/5eb5d75b-7eae-4e9c-8a94-1b3a536891ec_169.jpeg?w=650",
+        "https://craftlog.com/m/i/10518516=s1280=h960",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hVFbGaZUdG9z8xzYTL9Rrg1Y9_Kf8xaU24_8KXKpsMtfKr3b&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IDdbIE1Yy51HqmR5B7IKMt7jedpmmbww1l-NkkjFDjcD-lxX&s",
+        "http://www.receitaspratos.com/wp-content/uploads/2018/12/8c683906ac9346d939c29ed204d05eed.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrwXnQGZA1Wa4o-yG17h7n7DkhufWFe0Rxo7zMmP9Jfy_4vr5&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcMFdfXbtNkjL-wXU7HvKsBsfAzK71-YF2a-qp_Urei1PzIZ_&s"
+      ],
+      "hargamain": [
+        6000,
+        9000,
+        25000,
+        28000,
+        18000,
+        16000,
+        18000
+      ],
+      "extras": [
+        "Baked Macaroni",
+        "Tropical Salad",
+        "Pasta Amatriciana",
+        "Fettucine Carbonara",
+        "Fried Ravioli",
+        "Calamary"
+      ],
+      "descextras": [
+        "Baked Macaroni is a pasta dish that makes use of elbow macaroni as the primary ingredient. At first look, this could be mistaken as the famous Macaroni and Cheese but there is more to this dish than just having pasta and cheese.",
+        "An easy salad to make with a bag of salad greens, pineapple, bacon bits, nuts and toasted coconut.",
+        "Traditional Italian pasta sauce based on guanciale (cured pork cheek), pecorino cheese from Amatrice, tomato, and, in some variations, onion.",
+        "When a man at church found out how much my family likes fettuccine, he shared his Italian grandmother's carbonara recipe with us.",
+        "These fried ravioli are cheese ravioli coated in seasoned breadcrumbs, then fried to golden brown perfection.",
+        "Crispy Fried Calamari is a crisp, light and tender squid appetizer that's easy to make that you'll love served with lemon"
+      ],
+      "gambarextras": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5rFrPem2MRXcsaVMfBzHYhkz4H8oOE_UL-ONgfQpStMaYNriA&s",
+        "https://assets.bonappetit.com/photos/5b4e50a6c0f9db265023f9b6/16:9/w_1200,c_limit/tropical-cobb-salad.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe6DFUL8WyUL7_ggrNYY3mJ4yfUDWfzpBMCkV0sG2hqCIpYesCw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePLssa9eg3sE0qFRhQjnqNw_VqOWMp9uGp3VPrGAmvRwoo3kyfw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYeBumQyfvOHYan9AjruOHBOJFysPLlHGn7pdM8xwisFOzHsp7LQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgFU_299o8Yefb6rqo_1Ns5Hk0I-dFe9BSLdHa6L_iKWUiC6_&s"
+      ],
+      "hargaextras": [
+        25000,
+        12000,
+        14000,
+        13000,
+        15000,
+        13000
+      ],
+      "drinks": [
+        "Mango Solei",
+        "Ice Tea",
+        "Blue Lomonade",
+        "Buko Jello",
+        "Moet Champagne"
+      ],
+      "descdrinks": [
+        "Our signature blend combines succulent mango juice with crisp white wine, a harmonious paring that lends an explosive bouquet of ripe mangos to this slightly creamy wine with undertones of coconuts and stone fruits.",
+        "Free to refill ice tea",
+        "Blue lemonade is made with blueberries and blackberries, no artificial colors of flavors here.",
+        "Buko Pandan is a type of Filipino cold dessert made of jelly cubes, young coconut, and sweetened cream infused with pandan or screwpine flavor.",
+        "Moet Imperial Brut is the House's iconic champagne bottle. Created in 1869, it embodies the unique Moet & Chandon style; a style that distinguishes itself by its bright fruitiness, seductive palate, and elegant maturity."
+      ],
+      "gambardrinks": [
+        "https://www.fresh-mimosa.com/uploads/5/6/7/1/56710773/classic-tile_1_orig.jpg",
+        "https://images.summitmedia-digital.com/spotph/images/files/2015/03/1427077271-chocolate-kiss.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWGr5GCIzw9LEBPb-KyO9S3IkJAlS_sIXMCnz7pwC5_6lePxYZAA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTviiyIvrAivbp8AZFK5Ve6St9aZ9gZyJ7YYannH2M5slVACi1K&s",
+        "https://produits.bienmanger.com/4348-0w470h470_Moet_Chandon_Champagne_Brut_Imperial.jpg"
+      ],
+      "hargadrinks": [
+        10000,
+        8000,
+        12000,
+        8000,
+        90000
+      ]
+    },
+    {
+      "id": 2,
+      "merchant": "Bakerzin",
+      "idmerchant": 2,
+      "main": [
+        "Plain Rice",
+        "Chicken Cordon Bleu",
+        "Roast Pork in Gravy Sauce",
+        "Parmesan Fish Fillet with Dip",
+        "Mushroom Soup"
+      ],
+      "descmain": [
+        "Quality good rice",
+        "Consists of breaded chicken breasts pounded thin, stuffed with a slice of ham and a slice of Swiss cheese.",
+        "Glorious Roast pork Gravy Remove cooked roast pork from the tray, drain off as much fat as possible",
+        "Combined bread crumbs, paprika, and Parmesan cheese in another bowl. Dip fish fillets into milk mixture then into crumb mixture.",
+        "Cream of mushroom soup is a simple type of soup where a basic roux is thinned with cream or milk and then mushrooms and/or mushroom broth are added. It is well known in North America as a common type of condensed canned soup."
+      ],
+      "gambarmain": [
+        "https://awsimages.detik.net.id/visual/2019/07/09/5eb5d75b-7eae-4e9c-8a94-1b3a536891ec_169.jpeg?w=650",
+        "https://tastesbetterfromscratch.com/wp-content/uploads/2018/10/Chicken-Cordon-Bleu-11-500x500.jpg",
+        "https://www.cscassets.com/recipes/wide_cknew/wide_25745.jpg",
+        "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_412,h_232/v1/img/recipes/15/17/85/piceqvVZI.jpg",
+        "http://madeleineshaw.com/wp-content/uploads/2019/12/IMG_4115-800x800.jpg"
+      ],
+      "hargamain": [
+        5000,
+        14000,
+        22000,
+        19000,
+        20000
+      ],
+      "extras": [
+        "Baked Macaroni",
+        "Tropical Salad",
+        "Pasta Amatriciana",
+        "Fettucine Carbonara",
+        "Fried Ravioli",
+        "Calamary"
+      ],
+      "descextras": [
+        "Baked Macaroni is a pasta dish that makes use of elbow macaroni as the primary ingredient. At first look, this could be mistaken as the famous Macaroni and Cheese but there is more to this dish than just having pasta and cheese.",
+        "An easy salad to make with a bag of salad greens, pineapple, bacon bits, nuts and toasted coconut.",
+        "Traditional Italian pasta sauce based on guanciale (cured pork cheek), pecorino cheese from Amatrice, tomato, and, in some variations, onion.",
+        "When a man at church found out how much my family likes fettuccine, he shared his Italian grandmother's carbonara recipe with us.",
+        "These fried ravioli are cheese ravioli coated in seasoned breadcrumbs, then fried to golden brown perfection.",
+        "Crispy Fried Calamari is a crisp, light and tender squid appetizer that's easy to make that you'll love served with lemon"
+      ],
+      "gambarextras": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5rFrPem2MRXcsaVMfBzHYhkz4H8oOE_UL-ONgfQpStMaYNriA&s",
+        "https://assets.bonappetit.com/photos/5b4e50a6c0f9db265023f9b6/16:9/w_1200,c_limit/tropical-cobb-salad.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe6DFUL8WyUL7_ggrNYY3mJ4yfUDWfzpBMCkV0sG2hqCIpYesCw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePLssa9eg3sE0qFRhQjnqNw_VqOWMp9uGp3VPrGAmvRwoo3kyfw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYeBumQyfvOHYan9AjruOHBOJFysPLlHGn7pdM8xwisFOzHsp7LQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgFU_299o8Yefb6rqo_1Ns5Hk0I-dFe9BSLdHa6L_iKWUiC6_&s"
+      ],
+      "hargaextras": [
+        25000,
+        12000,
+        14000,
+        13000,
+        15000,
+        13000
+      ],
+      "drinks": [
+        "Mango Solei",
+        "Ice Tea",
+        "Blue Lomonade",
+        "Buko Jello",
+        "Moet Champagne"
+      ],
+      "descdrinks": [
+        "Our signature blend combines succulent mango juice with crisp white wine, a harmonious paring that lends an explosive bouquet of ripe mangos to this slightly creamy wine with undertones of coconuts and stone fruits.",
+        "Free to refill ice tea",
+        "Blue lemonade is made with blueberries and blackberries, no artificial colors of flavors here.",
+        "Buko Pandan is a type of Filipino cold dessert made of jelly cubes, young coconut, and sweetened cream infused with pandan or screwpine flavor.",
+        "Moet Imperial Brut is the House's iconic champagne bottle. Created in 1869, it embodies the unique Moet & Chandon style; a style that distinguishes itself by its bright fruitiness, seductive palate, and elegant maturity."
+      ],
+      "gambardrinks": [
+        "https://www.fresh-mimosa.com/uploads/5/6/7/1/56710773/classic-tile_1_orig.jpg",
+        "https://images.summitmedia-digital.com/spotph/images/files/2015/03/1427077271-chocolate-kiss.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWGr5GCIzw9LEBPb-KyO9S3IkJAlS_sIXMCnz7pwC5_6lePxYZAA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTviiyIvrAivbp8AZFK5Ve6St9aZ9gZyJ7YYannH2M5slVACi1K&s",
+        "https://produits.bienmanger.com/4348-0w470h470_Moet_Chandon_Champagne_Brut_Imperial.jpg"
+      ],
+      "hargadrinks": [
+        10000,
+        8000,
+        12000,
+        8000,
+        90000
+      ]
+    },
+    {
+      "id": 3,
+      "merchant": "Hadi's Kitchen",
+      "idmerchant": 3,
+      "main": [
+        "Settles Hill Chicken",
+        "Stuffed Sole Florentine",
+        "Sliced Roasted Beef",
+        "Eggplant Roulade",
+        "Eggplant Parmigiano"
+      ],
+      "descmain": [
+        "A chicken breast stuffed with trinity vegetables, smoked mozzarella and prosciutto. Topped with a cippolini balsamic reduction",
+        "A mild flavored filet stuffed with garlicky spinach and a seasoned crumb stuffing. Finished in a white wine butter sauce.",
+        "A slowly roasted beef sirloin top, thinly sliced. Finished with a beef demi-glaze bordelaise sauce.",
+        "A breaded eggplant rolled with, roasted red peppers, and fontinella, mozzarella and cheddar cheeses. Finished with a sherry pesto marinara sauce with sautéed fresh mushrooms and artichoke hearts. Served over linguine pasta. ",
+        "A breaded eggplant layered with marinara sauce and mozzarella cheese."
+      ],
+      "gambarmain": [
+        "https://www.dinneratthezoo.com/wp-content/uploads/2015/08/grilled-chicken-breast-5.jpg",
+        "http://s3-media1.fl.yelpcdn.com/bphoto/vxb5wWktQ9BBG677tHXrgA/o.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMNHzkjNre343tNk8GrTwaL6M2H5FGRedp_DaJky663YOG4vD&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlCPAwQlO7zAAcpqNSYB7bUB66ya8RqRKcm7yN8X0IWv02RPLxQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDSTTxG7-WZCHpPpHwqwwW2BNn4OklmiXcrvSpTIDZAM0EH-dZw&s"
+      ],
+      "hargamain": [
+        20000,
+        22000,
+        25000,
+        18000,
+        17000
+      ],
+      "extras": [
+        "Baked Macaroni",
+        "Tropical Salad",
+        "Pasta Amatriciana",
+        "Fettucine Carbonara",
+        "Fried Ravioli",
+        "Calamary"
+      ],
+      "descextras": [
+        "Baked Macaroni is a pasta dish that makes use of elbow macaroni as the primary ingredient. At first look, this could be mistaken as the famous Macaroni and Cheese but there is more to this dish than just having pasta and cheese.",
+        "An easy salad to make with a bag of salad greens, pineapple, bacon bits, nuts and toasted coconut.",
+        "Traditional Italian pasta sauce based on guanciale (cured pork cheek), pecorino cheese from Amatrice, tomato, and, in some variations, onion.",
+        "When a man at church found out how much my family likes fettuccine, he shared his Italian grandmother's carbonara recipe with us.",
+        "These fried ravioli are cheese ravioli coated in seasoned breadcrumbs, then fried to golden brown perfection.",
+        "Crispy Fried Calamari is a crisp, light and tender squid appetizer that's easy to make that you'll love served with lemon"
+      ],
+      "gambarextras": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5rFrPem2MRXcsaVMfBzHYhkz4H8oOE_UL-ONgfQpStMaYNriA&s",
+        "https://assets.bonappetit.com/photos/5b4e50a6c0f9db265023f9b6/16:9/w_1200,c_limit/tropical-cobb-salad.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe6DFUL8WyUL7_ggrNYY3mJ4yfUDWfzpBMCkV0sG2hqCIpYesCw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePLssa9eg3sE0qFRhQjnqNw_VqOWMp9uGp3VPrGAmvRwoo3kyfw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYeBumQyfvOHYan9AjruOHBOJFysPLlHGn7pdM8xwisFOzHsp7LQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgFU_299o8Yefb6rqo_1Ns5Hk0I-dFe9BSLdHa6L_iKWUiC6_&s"
+      ],
+      "hargaextras": [
+        25000,
+        12000,
+        14000,
+        13000,
+        15000,
+        13000
+      ],
+      "drinks": [
+        "Mango Solei",
+        "Ice Tea",
+        "Blue Lomonade",
+        "Buko Jello",
+        "Moet Champagne"
+      ],
+      "descdrinks": [
+        "Our signature blend combines succulent mango juice with crisp white wine, a harmonious paring that lends an explosive bouquet of ripe mangos to this slightly creamy wine with undertones of coconuts and stone fruits.",
+        "Free to refill ice tea",
+        "Blue lemonade is made with blueberries and blackberries, no artificial colors of flavors here.",
+        "Buko Pandan is a type of Filipino cold dessert made of jelly cubes, young coconut, and sweetened cream infused with pandan or screwpine flavor.",
+        "Moet Imperial Brut is the House's iconic champagne bottle. Created in 1869, it embodies the unique Moet & Chandon style; a style that distinguishes itself by its bright fruitiness, seductive palate, and elegant maturity."
+      ],
+      "gambardrinks": [
+        "https://www.fresh-mimosa.com/uploads/5/6/7/1/56710773/classic-tile_1_orig.jpg",
+        "https://images.summitmedia-digital.com/spotph/images/files/2015/03/1427077271-chocolate-kiss.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWGr5GCIzw9LEBPb-KyO9S3IkJAlS_sIXMCnz7pwC5_6lePxYZAA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTviiyIvrAivbp8AZFK5Ve6St9aZ9gZyJ7YYannH2M5slVACi1K&s",
+        "https://produits.bienmanger.com/4348-0w470h470_Moet_Chandon_Champagne_Brut_Imperial.jpg"
+      ],
+      "hargadrinks": [
+        10000,
+        8000,
+        12000,
+        8000,
+        90000
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "merchantid": 1,
+      "komentar": "cek toko sebelah aja",
+      "userid": 3
+    },
+    {
+      "id": 2,
+      "merchantid": 3,
+      "komentar": "Gaenak, mending warteg",
+      "userid": 3
+    },
+    {
+      "id": 3,
+      "merchantid": 1,
+      "komentar": "cek ajaa",
+      "userid": 2
+    },
+    {
+      "merchantid": 1,
+      "komentar": "sacasc",
+      "userid": 3,
+      "id": 4
+    },
+    {
+      "merchantid": 2,
+      "komentar": "Hapiz",
+      "userid": 3,
+      "id": 5
+    },
+    {
+      "merchantid": 1,
+      "komentar": "uhuhu",
+      "userid": 3,
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "02/02/2020",
+      "merchantid": 1,
+      "detail": [
+        [
+          "02/02/2020",
+          "03/02/2020",
+          "04/02/2020"
+        ],
+        [
+          "Nguyen's Vietnamese Meatballs Set",
+          "Tsukune Chicken",
+          "The Great Japanese Miso Beef with Red Rice Set"
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "makanan": [],
+      "price": 141360,
+      "status": "dihapus",
+      "id": 1
+    },
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "02/02/2020",
+      "merchantid": 1,
+      "detail": [
+        [
+          "02/02/2020"
+        ],
+        [
+          "Ginger Soy Fish Rice"
+        ],
+        [
+          3
+        ]
+      ],
+      "makanan": [],
+      "price": 102000,
+      "status": "belum bayar",
+      "id": 2
+    },
+    {
+      "userid": 3,
+      "type": 2,
+      "order": "02/02/2020",
+      "merchantid": 3,
+      "price": 195000,
+      "detail": [
+        "13/03/2020",
+        "lala jakarta",
+        "ricebox",
+        3
+      ],
+      "makanan": [
+        "Settles Hill Chicken",
+        "Sliced Roasted Beef",
+        "Tropical Salad",
+        "Ice Tea"
+      ],
+      "status": "dihapus",
+      "id": 3
+    },
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "03/02/2020",
+      "merchantid": 3,
+      "detail": [
+        [
+          "03/02/2020",
+          "04/02/2020",
+          "05/02/2020",
+          "06/02/2020",
+          "07/02/2020",
+          "08/02/2020"
+        ],
+        [
+          "Ginger Soy Fish Rice",
+          "Honey Pepper Beef Rice",
+          "Chicken Kare Raisu",
+          "Steamed Dory with Ginger Soy Sauce",
+          "Chicken Quinoa Salad",
+          "Thai Beef Green Curry"
+        ],
+        [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      ],
+      "makanan": [],
+      "price": 270900,
+      "status": "belum bayar",
+      "id": 4
+    },
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "05/02/2020",
+      "merchantid": 2,
+      "detail": [
+        [
+          "05/02/2020",
+          "06/02/2020",
+          "07/02/2020"
+        ],
+        [
+          "Mediterranean Vegie Sandwich",
+          "Traditional Greek Salad",
+          "Chicken Lentil Cheesy Salad"
+        ],
+        [
+          1,
+          3,
+          1
+        ]
+      ],
+      "makanan": [],
+      "price": 218250,
+      "status": "belum bayar",
+      "id": 5
+    },
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "05/02/2020",
+      "merchantid": 1,
+      "detail": [
+        [
+          "05/02/2020",
+          "06/02/2020",
+          "07/02/2020",
+          "08/02/2020",
+          "09/02/2020",
+          "10/02/2020"
+        ],
+        [
+          "Ginger Soy Fish Rice",
+          "Honey Pepper Beef Rice",
+          "The Great Japanese Miso Beef",
+          "Stir Fry Chicken With Yummy Mixed Mushroom",
+          "Chicken and Eggplant in Pepper Sauce",
+          "Cereal Fried Dory"
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1
+        ]
+      ],
+      "makanan": [],
+      "price": 244800,
+      "status": "dihapus",
+      "id": 6
+    },
+    {
+      "userid": 3,
+      "type": 1,
+      "order": "06/02/2020",
+      "merchantid": 1,
+      "detail": [
+        [
+          "06/02/2020",
+          "07/02/2020",
+          "08/02/2020",
+          "09/02/2020",
+          "10/02/2020",
+          "11/02/2020",
+          "12/02/2020",
+          "13/02/2020",
+          "14/02/2020",
+          "15/02/2020"
+        ],
+        [
+          "Ginger Soy Fish Rice",
+          "Honey Pepper Beef Rice",
+          "The Great Japanese Miso Beef",
+          "Stir Fry Chicken With Yummy Mixed Mushroom",
+          "Chicken and Eggplant in Pepper Sauce",
+          "Cereal Fried Dory",
+          "Thai Beef Green Curry",
+          "Spaghetti Marinara with Japanese-style",
+          "Rammen Miso Veggie Buddy",
+          "Chicken Kare Raisu"
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "makanan": [],
+      "price": 260100,
+      "status": "dihapus",
+      "id": 7
+    },
+    {
+      "userid": 3,
+      "type": 2,
+      "order": "06/02/2020",
+      "merchantid": 2,
+      "price": 3000000,
+      "detail": [
+        "07/02/2020",
+        "lala jakarta",
+        "buffet",
+        50
+      ],
+      "makanan": [
+        "Plain Rice",
+        "Chicken Cordon Bleu",
+        "Roast Pork in Gravy Sauce",
+        "Parmesan Fish Fillet with Dip"
+      ],
+      "status": "dihapus",
+      "id": 8
+    }
+  ],
+  "report": [
+    {
+      "id": 1,
+      "merchantid": "Resnis's Kitchen",
+      "weekincome": 700000,
+      "weekincomeaverage": 500000,
+      "weeksale": 24,
+      "weeksaleaverage": 30,
+      "star": 4.6
+    }
+  ]
+}
